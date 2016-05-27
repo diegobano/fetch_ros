@@ -165,7 +165,7 @@ if __name__ == "__main__":
     # Parse the arguments
     parser = argparse.ArgumentParser(description="Calibrate the robot, update files in /etc/ros")
     parser.add_argument("--arm", help="Capture arm/head calibration data", action="store_true")
-    parser.add_argument("--base", help="Captyure base calibration data", action="store_true")
+    parser.add_argument("--base", help="Capture base calibration data", action="store_true")
     parser.add_argument("--install", help="Install new calibration to /etc/ros (restarts drivers)", action="store_true")
     parser.add_argument("--reset", help="Reset the calibration to factory defaults (restarts drivers)", action="store_true")
     parser.add_argument("--restore", help="Restore the previous calibration", action="store_true")
